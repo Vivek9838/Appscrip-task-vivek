@@ -1,0 +1,37 @@
+.logo{
+    height: 45px;
+    width: 45px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+}
+.adminPanel{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 15px;
+    align-items: center;
+}
+.btnShop{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+}
+.LogoText{
+    margin-left: 85px;
+}
+.hr{
+    border: none;              
+    height: 0.5px;               
+    background-color: #f0ebeb;         
+    margin: 20px auto;  
+}
+.discover{
+    margin-top: 10px;
+    text-align: center;
+}

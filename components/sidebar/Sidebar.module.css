@@ -1,0 +1,32 @@
+.filter{
+    width: 25%;
+    padding: 5px 45px;
+}
+.hr{
+    border: none;              
+    height: 0.5px;               
+    background-color: #f0ebeb;         
+    margin: 20px auto;  
+    
+}
+.idealfor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.idealfor p{
+    font-weight: bold;
+}
+
+.dropDown{
+    display:grid;
+    gap: 10px;
+
+}
+.dropDown p{
+    color: rgb(221, 219, 219);
+    text-decoration:underline;
+}
+.para{
+    cursor: pointer;
+}

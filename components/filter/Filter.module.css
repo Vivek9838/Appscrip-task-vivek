@@ -1,0 +1,58 @@
+.hr{
+    border: none;              
+    height: 0.5px;               
+    background-color: #f0ebeb;         
+    margin: 20px auto;  
+}
+
+.divide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+.filter{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.hideAndShow{
+    position: absolute;
+    right: 0;
+    top: 48%;
+    box-shadow: 0 0 5px rgba(151, 138, 138, 0.2);
+    background-color: white;
+    padding: 15px 35px;
+    z-index: 100;
+border-radius: 8px;
+display: grid;
+cursor: pointer;
+gap: 25px;
+}
+.recomnded{
+    cursor: pointer;
+}
+
+.showAndHide{
+    cursor: pointer;
+}
+.items{
+    font-weight: bold;
+}
+
+.sideBarShow{
+    display: flex;
+    
+}
+.sideBarHide{
+    width: 100%;
+}
+.para{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+.icon{
+    color: red;
+}

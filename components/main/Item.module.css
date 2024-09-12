@@ -1,0 +1,24 @@
+.item {
+    width: 100%;
+    padding: 0 25px;
+}
+
+.itemImage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    box-shadow: 0 0 2px rgba(165, 164, 164, 0.4);
+    height: 340px;
+    width: 320px;
+    padding: 5px 18px;
+    margin-bottom: 35px;
+}
+
+.card img {
+    height: 250px;
+    width: 250px;
+}
