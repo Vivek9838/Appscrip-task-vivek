@@ -27,7 +27,7 @@ function Item() {
       {data?.map((el)=>(
         <div key={el.id} className={style.card}>
         <div className="cardImage">
-          <Image src={el.image} alt='image' />
+          <Image src={el.image} alt='image' width={350} height={350}   />
           <p>{el.title}</p><br />
           <div className={style.fav}>
           <Link href='/' >Sign in </Link><span className={style.small}>or Create an account to see pricing.</span>

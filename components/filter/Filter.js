@@ -67,7 +67,7 @@ function Filter() {
             </div>}
             {hideSideBars ? <div className={style.sideBarShows}>
                 <Sidebar />
-            </div> : <div className={style.sideBarHide}>
+            </div> : <div className={style.sideBarHides}>
                 {/* <Sidebar /> */}
                 <Item />
             </div>}
