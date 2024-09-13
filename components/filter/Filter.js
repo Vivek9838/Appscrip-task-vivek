@@ -47,7 +47,7 @@ function Filter() {
                 </div>
                 {hide ? <div className={style.hideAndShow}>
                     {paragraphs.map((text,index)=>(
-                        <div onClick={()=>handleClick(index)} className={style.para}>
+                        <div onClick={()=>handleClick(index)} className={style.para} key={index}>
                             <div className={style.icon}>
                             {selectedParagraph === index && <i class="fa-solid fa-check"></i> }
                             </div>

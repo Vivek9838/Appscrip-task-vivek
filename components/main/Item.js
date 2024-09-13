@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react'
 import style from "./Item.module.css"
 import Link from 'next/link'
+import Image from 'next/image'
+
 
 
 function Item() {
@@ -25,7 +27,7 @@ function Item() {
       {data?.map((el)=>(
         <div key={el.id} className={style.card}>
         <div className="cardImage">
-          <img src={el.image} alt='image' />
+          <Image src={el.image} alt='image' />
           <p>{el.title}</p><br />
           <div className={style.fav}>
           <Link href='/' >Sign in </Link><span className={style.small}>or Create an account to see pricing.</span>
