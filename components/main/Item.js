@@ -26,8 +26,12 @@ function Item() {
         <div className={style.card}>
         <div className="cardImage">
           <img src={el.image} alt='image' />
-          <p>{el.title}</p>
-          <Link href='/' >Sign in </Link><span>or Create an account to see pricing.</span>
+          <p>{el.title}</p><br />
+          <div className={style.fav}>
+          <Link href='/' >Sign in </Link><span className={style.small}>or Create an account to see pricing.</span>
+          <span><i class="fa-regular fa-heart"></i></span>
+          </div>
+         
         </div>
       </div>
       ))}

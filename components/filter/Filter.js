@@ -8,6 +8,7 @@ import Item from '../main/Item';
 function Filter() {
     const [hide, setHide] = useState(false);
     const [hideSideBar, setHideSideBar] = useState(false);
+    const [hideSideBars, setHideSideBars] = useState(false);
     const [selectedParagraph, setSelectedParagraph] = useState(null);
 
     const paragraphs = [
@@ -30,7 +31,15 @@ function Filter() {
                         <p>3425 ITEMS</p>
                     </div>
                     <div className={style.showAndHide}>
-                        {hideSideBar ? <p onClick={() => setHideSideBar(!hideSideBar)}><i class="fa-solid fa-angle-left"></i> SHOW FILTER</p> : <p onClick={() => setHideSideBar(!hideSideBar)}><i class="fa-solid fa-angle-right"></i> HIDE FILTER</p>}
+                        {hideSideBar ? <p onClick={() => setHideSideBar(!hideSideBar)}><i class="fa-solid fa-angle-left"></i> HIDE FILTER</p> : <p onClick={() => setHideSideBar(!hideSideBar)}><i class="fa-solid fa-angle-right"></i> SHOW FILTER</p>}
+                    </div>
+                </div>
+                <div className={style.filters}>
+                    <div className={style.showAndHides}>
+                       <p onClick={()=>setHideSideBars(!hideSideBars)}>FILTER</p>
+                    </div>
+                    <div className="recomndeds">
+                        <p  onClick={() => setHide(!hide)}>RECOMMENDED <i class="fa-solid fa-angle-down"></i></p>
                     </div>
                 </div>
                 <div className={style.recomnded}>
@@ -52,6 +61,12 @@ function Filter() {
             {hideSideBar ? <div className={style.sideBarShow}>
                 <Sidebar />
                 <Item />
+            </div> : <div className={style.sideBarHide}>
+                {/* <Sidebar /> */}
+                <Item />
+            </div>}
+            {hideSideBars ? <div className={style.sideBarShows}>
+                <Sidebar />
             </div> : <div className={style.sideBarHide}>
                 {/* <Sidebar /> */}
                 <Item />

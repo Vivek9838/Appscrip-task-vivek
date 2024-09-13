@@ -36,6 +36,10 @@ gap: 25px;
 .showAndHide{
     cursor: pointer;
 }
+.showAndHide p{
+    text-decoration: underline;
+    color: rgb(212, 213, 214);
+}
 .items{
     font-weight: bold;
 }
@@ -55,4 +59,36 @@ gap: 25px;
 }
 .icon{
     color: red;
+}
+.filters{
+    display: none;
+}
+
+@media only screen and (max-width:435px){
+    .filter{
+        display: none;
+    }
+    .recomnded{
+        display: none;
+    }
+    .filters{
+        padding: 0 15px;
+       display: flex;
+       gap: 130px;
+    }
+    .sideBarShows{
+         width: 100%;
+    }
+    .sideBarShow{
+        display: none;
+    }
+    .hideAndShow{
+        top: 37%;
+    }
+}
+@media only screen and (max-width:380px){
+    
+    .hideAndShow{
+        top: 55%;
+    }
 }

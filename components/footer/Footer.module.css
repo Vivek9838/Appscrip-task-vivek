@@ -1,0 +1,251 @@
+.footer{
+    background-color: black;
+    padding: 45px 55px;
+    color: white;
+}
+.hr{
+    border: none;              
+    height: 0.5px;               
+    background-color: #f0ebeb;         
+    margin: 20px auto;  
+}
+.hrs{
+     display: none; 
+}
+.hrs{
+    display: none;
+}
+.contactUs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bepara{
+    font-weight: bold;
+
+}
+.beinput{
+    padding: 10px 7px;
+    width: 100%;
+}
+.inputs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 160%;
+}
+.inputs button{
+    padding: 10px 7px;
+    border: none;
+    background-color: black;
+    color: #535353;
+    border: 1px solid #535353;
+    font-weight: bold;
+   
+}
+.flag{
+    display: flex;
+    justify-content: start;
+    gap: 23px;
+    align-items: center;
+    
+}
+.img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.metaCrus{
+    display: none;
+}
+.quickRes{
+    display: none;
+}
+.quickCrus{
+    display: none;
+}
+
+.footerData{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.metta ul{
+    display: grid;
+    row-gap: 15px;
+}
+.metta li{
+    list-style: none;
+}
+.mettap{
+    font-size: 20px;
+    font-weight: bold;
+}
+.quick ul{
+    display: grid;
+    row-gap: 15px;
+}
+.quick li{
+    list-style: none;
+}
+.linkd{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.metaRes{
+    display: none;
+}
+.museAcc{
+    font-weight: bold;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+}
+.imgss{
+    height: 25px;
+    width: 40px;
+}
+
+.copyRight{
+    text-align: center;
+    margin-top: 45px;
+}
+.res{
+    display: none;
+}
+.hrss{
+    display: none;
+}
+
+@media only screen and (max-width:435px){
+    .footer{
+        padding: 15px 15px;
+    }
+.inputs{
+    width: 100%;
+}
+.res{
+    display: block;
+}
+.unres{
+    display: none;
+}
+.hrs{
+    border: none;              
+    height: 0.2px;               
+    background-color: #f0ebeb;         
+    margin: 20px auto;
+    display: block;
+    width: 100%;
+}
+.contactUs{
+    display: grid;
+}
+.tran{
+    display: none;
+}
+.footerData{
+    display: grid;
+}
+.metaRes{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .metaRes i{
+    margin-right: -50px; 
+} 
+.metaRes p{
+    font-weight: 700;
+}
+.quickRes{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .quickRes i{
+    margin-right: -50px;
+} 
+.quickRes p{
+    font-weight: 700;
+}
+.metta{
+    display: none;
+}
+.quick{
+    display: none;
+}
+.metaCrus{
+    display: block;
+    background-color: black;
+    padding: 15px 0 ;
+    text-align: center;
+}
+.quickCrus{
+    display: block;
+    background-color: black;
+    padding: 15px 0 ;
+    text-align: center;
+}
+.hrss{
+    border: none;              
+    height: 0.2px;               
+    background-color: #f0ebeb;         
+    margin: 20px auto;
+    display: block;
+     width: 115%; 
+}
+.follows{
+    display: none;
+}
+.followsRes{
+    display: block;
+}
+.linkdRes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+}
+.images{
+    display: flex;
+    align-items: center;
+     justify-content: center;
+     gap: 7px; 
+}
+.imgss{
+    height: 30px;
+    width: 50px;
+}
+}
+
+@media only screen and (max-width:375px){
+    .hrss{
+        border: none;              
+        height: 0.2px;               
+        background-color: #f0ebeb;         
+        margin: 20px auto;
+        display: block;
+         width: 103%; 
+    }
+    .quickRes i{
+        margin-right: -10px;
+    } 
+    .metaRes i{
+        margin-right: -10px; 
+    } 
+}

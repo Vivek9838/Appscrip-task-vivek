@@ -30,3 +30,8 @@
 .para{
     cursor: pointer;
 }
+@media only screen and (max-width:435px){
+   .filter{
+     width: 100%;
+   }
+}
