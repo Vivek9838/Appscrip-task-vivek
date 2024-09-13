@@ -15,7 +15,7 @@ function Navbar() {
                     <i class="fa-solid fa-bars"></i>
                 </div>
                 <div className={style.logoImages}>
-                    <Image src={Logo} className={style.logo} />
+                    <Image src={Logo} className={style.logo} alt='cdjh'/>
                 </div>
 
                 <div className={style.LogoTexts}>
@@ -31,7 +31,7 @@ function Navbar() {
                     </div>
                 </div> : null}
                 <div className={style.logoImage}>
-                    <Image src={Logo} className={style.logo} />
+                    <Image src={Logo} className={style.logo} alt='cdjh'/>
                 </div>
 
                 <div className={style.LogoText}>

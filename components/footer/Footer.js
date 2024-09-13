@@ -124,12 +124,12 @@ function Footer() {
             <br />
             <p className={style.museAcc}>metta muse ACCEPTS</p><br />
             <div className={style.images}>
-             <Image src={Google} className={style.imgss} />
-             <Image src={Master} className={style.imgss} />
-             <Image src={Paypal} className={style.imgss} />
-             <Image src={Amex} className={style.imgss} />
-             <Image src={Apple} className={style.imgss}/>
-             <Image src={Phone} className={style.imgss}/>
+             <Image src={Google} className={style.imgss} alt='cdjh' />
+             <Image src={Master} className={style.imgss} alt='cdjh'/>
+             <Image src={Paypal} className={style.imgss} alt='cdjh' />
+             <Image src={Amex} className={style.imgss}  alt='cdjh'/>
+             <Image src={Apple} className={style.imgss} alt='cdjh'/>
+             <Image src={Phone} className={style.imgss} alt='cdjh'/>
             </div>
           </div>
       </div>

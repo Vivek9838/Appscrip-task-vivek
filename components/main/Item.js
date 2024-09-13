@@ -23,7 +23,7 @@ function Item() {
     <div className={style.item}>
       <div className={style.itemImage}>
       {data?.map((el)=>(
-        <div className={style.card}>
+        <div key={el.id} className={style.card}>
         <div className="cardImage">
           <img src={el.image} alt='image' />
           <p>{el.title}</p><br />
